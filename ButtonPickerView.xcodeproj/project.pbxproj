@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DBFC8711BB3CC3500571532 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBFC8701BB3CC3500571532 /* main.m */; };
+		2DBFC8741BB3CC3500571532 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBFC8731BB3CC3500571532 /* AppDelegate.m */; };
+		2DBFC8771BB3CC3500571532 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBFC8761BB3CC3500571532 /* ViewController.m */; };
+		2DBFC87A1BB3CC3500571532 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DBFC8781BB3CC3500571532 /* Main.storyboard */; };
+		2DBFC87C1BB3CC3500571532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DBFC87B1BB3CC3500571532 /* Assets.xcassets */; };
+		2DBFC87F1BB3CC3500571532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DBFC87D1BB3CC3500571532 /* LaunchScreen.storyboard */; };
+		2DBFC88A1BB3CC3500571532 /* ButtonPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBFC8891BB3CC3500571532 /* ButtonPickerViewTests.m */; };
+		2DBFC8951BB3CC3500571532 /* ButtonPickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBFC8941BB3CC3500571532 /* ButtonPickerViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DBFC8861BB3CC3500571532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DBFC8641BB3CC3500571532 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DBFC86B1BB3CC3500571532;
+			remoteInfo = ButtonPickerView;
+		};
+		2DBFC8911BB3CC3500571532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DBFC8641BB3CC3500571532 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DBFC86B1BB3CC3500571532;
+			remoteInfo = ButtonPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DBFC86C1BB3CC3500571532 /* ButtonPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DBFC8701BB3CC3500571532 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2DBFC8721BB3CC3500571532 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2DBFC8731BB3CC3500571532 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2DBFC8751BB3CC3500571532 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2DBFC8761BB3CC3500571532 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2DBFC8791BB3CC3500571532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DBFC87B1BB3CC3500571532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DBFC87E1BB3CC3500571532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DBFC8801BB3CC3500571532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DBFC8851BB3CC3500571532 /* ButtonPickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonPickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DBFC8891BB3CC3500571532 /* ButtonPickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonPickerViewTests.m; sourceTree = "<group>"; };
+		2DBFC88B1BB3CC3500571532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DBFC8901BB3CC3500571532 /* ButtonPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DBFC8941BB3CC3500571532 /* ButtonPickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonPickerViewUITests.m; sourceTree = "<group>"; };
+		2DBFC8961BB3CC3500571532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DBFC8691BB3CC3500571532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBFC8821BB3CC3500571532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBFC88D1BB3CC3500571532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DBFC8631BB3CC3500571532 = {
+			isa = PBXGroup;
+			children = (
+				2DBFC86E1BB3CC3500571532 /* ButtonPickerView */,
+				2DBFC8881BB3CC3500571532 /* ButtonPickerViewTests */,
+				2DBFC8931BB3CC3500571532 /* ButtonPickerViewUITests */,
+				2DBFC86D1BB3CC3500571532 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DBFC86D1BB3CC3500571532 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DBFC86C1BB3CC3500571532 /* ButtonPickerView.app */,
+				2DBFC8851BB3CC3500571532 /* ButtonPickerViewTests.xctest */,
+				2DBFC8901BB3CC3500571532 /* ButtonPickerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DBFC86E1BB3CC3500571532 /* ButtonPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				2DBFC8721BB3CC3500571532 /* AppDelegate.h */,
+				2DBFC8731BB3CC3500571532 /* AppDelegate.m */,
+				2DBFC8751BB3CC3500571532 /* ViewController.h */,
+				2DBFC8761BB3CC3500571532 /* ViewController.m */,
+				2DBFC8781BB3CC3500571532 /* Main.storyboard */,
+				2DBFC87B1BB3CC3500571532 /* Assets.xcassets */,
+				2DBFC87D1BB3CC3500571532 /* LaunchScreen.storyboard */,
+				2DBFC8801BB3CC3500571532 /* Info.plist */,
+				2DBFC86F1BB3CC3500571532 /* Supporting Files */,
+			);
+			path = ButtonPickerView;
+			sourceTree = "<group>";
+		};
+		2DBFC86F1BB3CC3500571532 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DBFC8701BB3CC3500571532 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DBFC8881BB3CC3500571532 /* ButtonPickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DBFC8891BB3CC3500571532 /* ButtonPickerViewTests.m */,
+				2DBFC88B1BB3CC3500571532 /* Info.plist */,
+			);
+			path = ButtonPickerViewTests;
+			sourceTree = "<group>";
+		};
+		2DBFC8931BB3CC3500571532 /* ButtonPickerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2DBFC8941BB3CC3500571532 /* ButtonPickerViewUITests.m */,
+				2DBFC8961BB3CC3500571532 /* Info.plist */,
+			);
+			path = ButtonPickerViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DBFC86B1BB3CC3500571532 /* ButtonPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DBFC8991BB3CC3500571532 /* Build configuration list for PBXNativeTarget "ButtonPickerView" */;
+			buildPhases = (
+				2DBFC8681BB3CC3500571532 /* Sources */,
+				2DBFC8691BB3CC3500571532 /* Frameworks */,
+				2DBFC86A1BB3CC3500571532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonPickerView;
+			productName = ButtonPickerView;
+			productReference = 2DBFC86C1BB3CC3500571532 /* ButtonPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DBFC8841BB3CC3500571532 /* ButtonPickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DBFC89C1BB3CC3500571532 /* Build configuration list for PBXNativeTarget "ButtonPickerViewTests" */;
+			buildPhases = (
+				2DBFC8811BB3CC3500571532 /* Sources */,
+				2DBFC8821BB3CC3500571532 /* Frameworks */,
+				2DBFC8831BB3CC3500571532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DBFC8871BB3CC3500571532 /* PBXTargetDependency */,
+			);
+			name = ButtonPickerViewTests;
+			productName = ButtonPickerViewTests;
+			productReference = 2DBFC8851BB3CC3500571532 /* ButtonPickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DBFC88F1BB3CC3500571532 /* ButtonPickerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DBFC89F1BB3CC3500571532 /* Build configuration list for PBXNativeTarget "ButtonPickerViewUITests" */;
+			buildPhases = (
+				2DBFC88C1BB3CC3500571532 /* Sources */,
+				2DBFC88D1BB3CC3500571532 /* Frameworks */,
+				2DBFC88E1BB3CC3500571532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DBFC8921BB3CC3500571532 /* PBXTargetDependency */,
+			);
+			name = ButtonPickerViewUITests;
+			productName = ButtonPickerViewUITests;
+			productReference = 2DBFC8901BB3CC3500571532 /* ButtonPickerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DBFC8641BB3CC3500571532 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = yangyao;
+				TargetAttributes = {
+					2DBFC86B1BB3CC3500571532 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					2DBFC8841BB3CC3500571532 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 2DBFC86B1BB3CC3500571532;
+					};
+					2DBFC88F1BB3CC3500571532 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 2DBFC86B1BB3CC3500571532;
+					};
+				};
+			};
+			buildConfigurationList = 2DBFC8671BB3CC3500571532 /* Build configuration list for PBXProject "ButtonPickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DBFC8631BB3CC3500571532;
+			productRefGroup = 2DBFC86D1BB3CC3500571532 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DBFC86B1BB3CC3500571532 /* ButtonPickerView */,
+				2DBFC8841BB3CC3500571532 /* ButtonPickerViewTests */,
+				2DBFC88F1BB3CC3500571532 /* ButtonPickerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DBFC86A1BB3CC3500571532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DBFC87F1BB3CC3500571532 /* LaunchScreen.storyboard in Resources */,
+				2DBFC87C1BB3CC3500571532 /* Assets.xcassets in Resources */,
+				2DBFC87A1BB3CC3500571532 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBFC8831BB3CC3500571532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBFC88E1BB3CC3500571532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DBFC8681BB3CC3500571532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DBFC8771BB3CC3500571532 /* ViewController.m in Sources */,
+				2DBFC8741BB3CC3500571532 /* AppDelegate.m in Sources */,
+				2DBFC8711BB3CC3500571532 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBFC8811BB3CC3500571532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DBFC88A1BB3CC3500571532 /* ButtonPickerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBFC88C1BB3CC3500571532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DBFC8951BB3CC3500571532 /* ButtonPickerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DBFC8871BB3CC3500571532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DBFC86B1BB3CC3500571532 /* ButtonPickerView */;
+			targetProxy = 2DBFC8861BB3CC3500571532 /* PBXContainerItemProxy */;
+		};
+		2DBFC8921BB3CC3500571532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DBFC86B1BB3CC3500571532 /* ButtonPickerView */;
+			targetProxy = 2DBFC8911BB3CC3500571532 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DBFC8781BB3CC3500571532 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DBFC8791BB3CC3500571532 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DBFC87D1BB3CC3500571532 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DBFC87E1BB3CC3500571532 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DBFC8971BB3CC3500571532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2DBFC8981BB3CC3500571532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DBFC89A1BB3CC3500571532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ButtonPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wdkj.ButtonPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2DBFC89B1BB3CC3500571532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ButtonPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wdkj.ButtonPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2DBFC89D1BB3CC3500571532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ButtonPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wdkj.ButtonPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonPickerView.app/ButtonPickerView";
+			};
+			name = Debug;
+		};
+		2DBFC89E1BB3CC3500571532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ButtonPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wdkj.ButtonPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonPickerView.app/ButtonPickerView";
+			};
+			name = Release;
+		};
+		2DBFC8A01BB3CC3500571532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ButtonPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wdkj.ButtonPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ButtonPickerView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2DBFC8A11BB3CC3500571532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ButtonPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wdkj.ButtonPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ButtonPickerView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DBFC8671BB3CC3500571532 /* Build configuration list for PBXProject "ButtonPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DBFC8971BB3CC3500571532 /* Debug */,
+				2DBFC8981BB3CC3500571532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DBFC8991BB3CC3500571532 /* Build configuration list for PBXNativeTarget "ButtonPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DBFC89A1BB3CC3500571532 /* Debug */,
+				2DBFC89B1BB3CC3500571532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2DBFC89C1BB3CC3500571532 /* Build configuration list for PBXNativeTarget "ButtonPickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DBFC89D1BB3CC3500571532 /* Debug */,
+				2DBFC89E1BB3CC3500571532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2DBFC89F1BB3CC3500571532 /* Build configuration list for PBXNativeTarget "ButtonPickerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DBFC8A01BB3CC3500571532 /* Debug */,
+				2DBFC8A11BB3CC3500571532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DBFC8641BB3CC3500571532 /* Project object */;
+}
