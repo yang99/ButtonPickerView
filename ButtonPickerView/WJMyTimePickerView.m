@@ -1,10 +1,8 @@
 //
 //  WJMyTimePickerView.m
-//  WJSpeed
-//
-//  Created by yangyao on 15/9/11.
-//  Copyright (c) 2015年 iWangding. All rights reserved.
-//
+
+//  Created by yangyao on 15/9/24.
+//  Copyright © 2015年 yangyao. All rights reserved.
 
 #import "WJMyTimePickerView.h"
 #import "FlexBile.h"
@@ -146,7 +144,7 @@ static const CGFloat distance = 50;
     }
     timeView.titleLabel.font = [UIFont fontWithName:@"STHeitiJ-Medium" size:[FlexBile flexibleFloat:22]];
     timeView.frame = CGRectMake(0, 0, pickerView.frame.size.width, [FlexBile flexibleFloat:50]);
-    timeView.titleLabel.text = [NSString stringWithFormat:@"%ld",((NSNumber *)self.pickerDataSource[row]).integerValue];
+    timeView.titleLabel.text = [NSString stringWithFormat:@"%ld",(long)((NSNumber *)self.pickerDataSource[row]).integerValue];
     if(self.currentValue == row){
         timeView.titleLabel.textColor = [UIColor whiteColor];
         timeView.titleLabel.font = [UIFont fontWithName:@"STHeitiJ-Medium" size:[FlexBile flexibleFloat:30]];
@@ -230,9 +228,6 @@ static const CGFloat distance = 50;
 
 
 @end
-
-
-
 
 
 

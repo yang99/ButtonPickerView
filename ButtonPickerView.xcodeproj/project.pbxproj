@@ -15,6 +15,8 @@
 		2DBFC87F1BB3CC3500571532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DBFC87D1BB3CC3500571532 /* LaunchScreen.storyboard */; };
 		2DBFC88A1BB3CC3500571532 /* ButtonPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBFC8891BB3CC3500571532 /* ButtonPickerViewTests.m */; };
 		2DBFC8951BB3CC3500571532 /* ButtonPickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBFC8941BB3CC3500571532 /* ButtonPickerViewUITests.m */; };
+		2DBFC8A41BB3CC7300571532 /* WJMyTimePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBFC8A31BB3CC7300571532 /* WJMyTimePickerView.m */; settings = {ASSET_TAGS = (); }; };
+		2DBFC8A81BB3CCA000571532 /* FlexBile.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBFC8A61BB3CCA000571532 /* FlexBile.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,11 @@
 		2DBFC8901BB3CC3500571532 /* ButtonPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DBFC8941BB3CC3500571532 /* ButtonPickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonPickerViewUITests.m; sourceTree = "<group>"; };
 		2DBFC8961BB3CC3500571532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DBFC8A21BB3CC7300571532 /* WJMyTimePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJMyTimePickerView.h; sourceTree = "<group>"; };
+		2DBFC8A31BB3CC7300571532 /* WJMyTimePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJMyTimePickerView.m; sourceTree = "<group>"; };
+		2DBFC8A51BB3CCA000571532 /* FlexBile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexBile.h; sourceTree = "<group>"; };
+		2DBFC8A61BB3CCA000571532 /* FlexBile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexBile.m; sourceTree = "<group>"; };
+		2DBFC8A71BB3CCA000571532 /* FlexBileWJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexBileWJ.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +108,11 @@
 		2DBFC86E1BB3CC3500571532 /* ButtonPickerView */ = {
 			isa = PBXGroup;
 			children = (
+				2DBFC8A51BB3CCA000571532 /* FlexBile.h */,
+				2DBFC8A61BB3CCA000571532 /* FlexBile.m */,
+				2DBFC8A71BB3CCA000571532 /* FlexBileWJ.h */,
+				2DBFC8A21BB3CC7300571532 /* WJMyTimePickerView.h */,
+				2DBFC8A31BB3CC7300571532 /* WJMyTimePickerView.m */,
 				2DBFC8721BB3CC3500571532 /* AppDelegate.h */,
 				2DBFC8731BB3CC3500571532 /* AppDelegate.m */,
 				2DBFC8751BB3CC3500571532 /* ViewController.h */,
@@ -272,6 +284,8 @@
 			files = (
 				2DBFC8771BB3CC3500571532 /* ViewController.m in Sources */,
 				2DBFC8741BB3CC3500571532 /* AppDelegate.m in Sources */,
+				2DBFC8A81BB3CCA000571532 /* FlexBile.m in Sources */,
+				2DBFC8A41BB3CC7300571532 /* WJMyTimePickerView.m in Sources */,
 				2DBFC8711BB3CC3500571532 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

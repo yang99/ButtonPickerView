@@ -1,10 +1,7 @@
 //
 //  WJMyTimePickerView.h
-//  WJSpeed
-//
 //  Created by yangyao on 15/9/11.
-//  Copyright (c) 2015年 iWangding. All rights reserved.
-//
+//  Copyright (c) 2015年 yangyao. All rights reserved.
 
 #import <UIKit/UIKit.h>
 
